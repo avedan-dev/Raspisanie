@@ -1,1 +1,1 @@
-web: python Telebotik.py worker=1
+heroku ps:scale bot=1
