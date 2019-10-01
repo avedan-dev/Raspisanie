@@ -2,8 +2,6 @@ import telebot
 import excel_print
 import time_my
 
-print(telebot.__file__)
-
 bot = telebot.TeleBot('792575208:AAFaPrc_J7L_mMLEtPDuskornONkCeVyqB8')
 keyboard_faculties = telebot.types.ReplyKeyboardMarkup(one_time_keyboard = True)
 keyboard_faculties.row('Горный', 'ГРФ')
