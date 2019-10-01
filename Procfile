@@ -1,1 +1,1 @@
-web: python Telebotik.py
+web: python Telebotik.py worker=1
