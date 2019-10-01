@@ -2,7 +2,7 @@ import telebot
 import excel_print
 import time_my
 
-bot = telebot.Telebot('792575208:AAFaPrc_J7L_mMLEtPDuskornONkCeVyqB8')
+bot = telebot.TeleBot('792575208:AAFaPrc_J7L_mMLEtPDuskornONkCeVyqB8')
 keyboard_faculties = telebot.types.ReplyKeyboardMarkup(one_time_keyboard = True)
 keyboard_faculties.row('Горный', 'ГРФ')
 keyboard_faculties.row('Нефтегаз', 'ФПМС', 'Строительный')
