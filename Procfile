@@ -1,1 +1,1 @@
-worker python Telebotik.py
+worker: python Telebotik.py
